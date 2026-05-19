@@ -1,0 +1,6 @@
+liferay-default:
+    network:
+        enabled: true
+    overlay:
+        enabled: false
+    replicaCount: 1

@@ -1,0 +1,19 @@
+backup:
+    enabled: true
+    region: us-central1
+cmk:
+    enabled: false
+database:
+    databaseVersion: POSTGRES_18
+    deletionProtection: false
+deletionProtection: false
+endpoints: {}
+forceDestroy: true
+license:
+    externalSecretName: liferay-license
+    targetSecretName: liferay-license
+orphanOnDelete: false
+overlay:
+    enabled: false
+storage:
+    enableVersioning: true
