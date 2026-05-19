@@ -7,4 +7,5 @@ database:
 search:
     elasticsearch:
         nodeCount: 1
+        version: 8.19.11
         volumeSize: 10Gi
