@@ -7,7 +7,6 @@ liferay-default:
                 value: "8081"
     network:
         hostnames:
-            -   lcd-51702-dev.example.com
             -   liferaydev.paastrial.xyz
     resources:
         limits:

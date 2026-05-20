@@ -7,7 +7,6 @@ liferay-default:
                 value: "8082"
     network:
         hostnames:
-            -   lcd-51702-uat.example.com
             -   liferayuat.paastrial.xyz
     resources:
         limits:
