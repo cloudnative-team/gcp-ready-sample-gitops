@@ -1,0 +1,11 @@
+backup:
+    retentionDays: 14
+    schedule: 0 5 * * *
+database:
+    instanceType: db-custom-2-7680
+    storageGB: 20
+search:
+    elasticsearch:
+        nodeCount: 1
+        version: 8.19.11
+        volumeSize: 20Gi
