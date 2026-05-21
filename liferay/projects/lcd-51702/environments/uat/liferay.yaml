@@ -3,11 +3,6 @@ liferay-default:
         x-cross-env-webid-override:
             -   name: LIFERAY_COMPANY_PERIOD_DEFAULT_PERIOD_WEB_PERIOD_ID
                 value: lcd-51702-dev.example.com
-        x-port-forward-override:
-            -   name: LIFERAY_WEB_PERIOD_SERVER_PERIOD_HOST
-                value: localhost
-            -   name: LIFERAY_WEB_PERIOD_SERVER_PERIOD_HTTP_PERIOD_PORT
-                value: "8082"
     network:
         hostnames:
             -   liferayuat.paastrial.xyz
