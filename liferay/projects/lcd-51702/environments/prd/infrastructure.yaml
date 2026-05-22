@@ -1,9 +1,9 @@
 backup:
-    retentionDays: 7
+    retentionDays: 30
     schedule: 0 5 * * *
 database:
-    instanceType: db-custom-1-3840
-    storageGB: 10
+    instanceType: db-custom-2-7680
+    storageGB: 20
 search:
     elasticsearch:
         nodeCount: 1
@@ -20,4 +20,4 @@ search:
             seccompProfile:
                 type: RuntimeDefault
         version: 8.19.11
-        volumeSize: 10Gi
+        volumeSize: 20Gi

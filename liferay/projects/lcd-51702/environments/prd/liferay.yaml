@@ -2,10 +2,10 @@ liferay-default:
     customEnv:
         x-cross-env-webid-override:
             -   name: LIFERAY_COMPANY_PERIOD_DEFAULT_PERIOD_WEB_PERIOD_ID
-                value: lcd-51702-dev.example.com
+                value: lcd-51702-prd.example.com
     network:
         hostnames:
-            -   liferaydev.paastrial.xyz
+            -   liferayprd.paastrial.xyz
     resources:
         limits:
             cpu: 2000m
