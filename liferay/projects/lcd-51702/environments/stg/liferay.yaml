@@ -1,0 +1,15 @@
+liferay-default:
+    customEnv:
+        x-cross-env-webid-override:
+            -   name: LIFERAY_COMPANY_PERIOD_DEFAULT_PERIOD_WEB_PERIOD_ID
+                value: lcd-51702-stg.example.com
+    network:
+        hostnames:
+            -   liferaystg.paastrial.xyz
+    resources:
+        limits:
+            cpu: 2000m
+            memory: 6Gi
+        requests:
+            cpu: 1000m
+            memory: 2Gi
